@@ -24,6 +24,34 @@
 
 **DELETE** - وهو النوع المستخدم لحذف البيانات. علي سبيل المثال حذف حساب مستخدم من قاعدة البيانات.
 
+
+هناك ثلاثة عناصر أساسية في اي (REST API) وهي الطلب (resquest) والرد (response) والرأس (headers):
+
+**الطلب (Request):** وفيه يتم إسال بعض البيانات لل(API) والتي تستخدم في استدعاء البيانات ذات الصلة...مثل ارسال (id) او كلمة بحثية (search word) للبحث بإستخدامها في قاعدة بيانات ال(REST API) واستدعاء كل البيانات ذات الصلة بذلك ال(id) او بتلك الكلمة البحثية. 
+
+![2-6](https://www.freecodecamp.org/news/content/images/2020/08/2-6.png)
+*مثال لل(resquest)*
+
+
+**الرد (Response):** وهي اي بيانات يقوم سيرفر الـ(REST API) بإرسالها لك في حال اذا كان طلبك ناجحا (اي وجد ما سيتوفي شروط الطلب - successful request) او عكس ذلك (لم يجد ما يستوفي شروط الطلب - failed request)
+
+![3-5](https://www.freecodecamp.org/news/content/images/2020/08/3-5.png)
+*مثال للـ(response)*
+
+
+**الرأس (Headers):**  وفيه يتم إرسال اي بيانات اضافية (metadata) والتي تساعد سيرفر الـ(API) في فهم نوع الطلب الذي يتعامل معه...علي سبيل المثال، تعريف نوع المحتوي (content-type) المطلوب او الطريقة (method)  
+
+![4-2](https://www.freecodecamp.org/news/content/images/2020/08/4-2.png)
+*مثال للـ(headers)*
+
+الميزة الحقيقية لأستخدام الـ(REST API) هي انه يمكن استخدامه لبناء مستوي واحداو طبقة واحدة (single API layer) لخدمة عدة تطبيقات في آن واحد
+
+علي سبيل المثال، اذا كان لديك قاعدة بيانات تريد مشاركتها ما بين تطبيق ويب وتطبيق هاتف وتطبيق PC...فكل ما تحتاجه هو إنشاء طبقة واحدة من الـREST API
+
+الأن لديك ما يكفي من المعلومات عن كيفية عمل الREST API للبدء في تعلم كيفية استخدامه...لنشرع في ذلك إذا
+
+---
+
 # JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples
 
 If you are writing a web application, chances are you will have to work with external data. This can be your own database, third party APIs, and so on.
