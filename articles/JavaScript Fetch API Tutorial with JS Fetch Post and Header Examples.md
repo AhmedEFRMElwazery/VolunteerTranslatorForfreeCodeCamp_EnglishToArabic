@@ -44,11 +44,59 @@
 ![4-2](https://www.freecodecamp.org/news/content/images/2020/08/4-2.png)
 *مثال للـ(headers)*
 
+
 الميزة الحقيقية لأستخدام الـ(REST API) هي انه يمكن استخدامه لبناء مستوي واحداو طبقة واحدة (single API layer) لخدمة عدة تطبيقات في آن واحد
 
 علي سبيل المثال، اذا كان لديك قاعدة بيانات تريد مشاركتها ما بين تطبيق ويب وتطبيق هاتف وتطبيق PC...فكل ما تحتاجه هو إنشاء طبقة واحدة من الـREST API
 
-الأن لديك ما يكفي من المعلومات عن كيفية عمل الREST API للبدء في تعلم كيفية استخدامه...لنشرع في ذلك إذا
+الأن لديك ما بكفي من المعلومات عن كيفية عمل الREST API للبدء في تعلم كيفية استخدامه...لنبدأ ذلك إذاً.
+
+
+## طلب بإستخدام دالة الـ(XMLHttpRequest)
+قبل ان تصبح صيغة الـ([JSON](https://www.w3schools.com/js/js_json_intro.asp)) الأكثر انتشارا واستخداما علي مستوي العالم، الشكل والصيغة الأساسية لتبادل البيانات كانت صيغة تسمي بالـ(XML). دالة الـ(()XMLHttpResquest) هي دالة من دوال لغة الـ(JavaScript) والتي اتاحت استدعاء البيانات من الـ(API) والبيانات المرسلة من الـ(API) كانت في صيغة الـ(XML).
+
+اتاحت تلك الدالة إمكانية استدعاء البيانات من الـ(back-end) دون الحاجة لإعادة تحميل الصفحة. هذه الدالة أصبحت الآن تدعم صيغ استدعاء أخري مثل الـ(JSON) ولم يصبح الأمر مقتصراً علي صيغة الـ(XML) فقط كما كان الآمر سابقاً.
+
+لنبدأ بكتابة طلب (request) بإستخدام دالة الـ(()XMLHttpRequest) والذي سيستخدم الـ(Github API) لإستدعاء بيانات صفحتي الشخصية عليه.
+
+
+```javascript
+// function to handle success
+function success() {
+    var data = JSON.parse(this.responseText); //parse the string to JSON
+    console.log(data);
+}
+
+// function to handle error
+function error(err) {
+    console.log('Request Failed', err); //error details will be in the "err" object
+}
+
+var xhr = new XMLHttpRequest(); //invoke a new instance of the XMLHttpRequest
+xhr.onload = success; // call success function if request is successful
+xhr.onerror = error;  // call error function if request failed
+xhr.open('GET', 'https://api.github.com/users/manishmshiva'); // open a GET request
+xhr.send(); // send the request to the server.
+```
+
+
+
+
+
+
+
+المثال المذكور بالأعلي يقوم بإرسال طلب من نوع (GET request) الي [https://api.github.com/users/manishmshiva](https://api.github.com/users/manishmshiva) لإستدعاء بيانات صفحتي الشخصية من علي (Github) في صيغة (JSON)
+
+إذا تحقق الطلب وكان ناجحا، سيطبع الآتي في لوحة التحكم (console):
+
+![5-2](https://www.freecodecamp.org/news/content/images/2020/08/5-2.png)
+
+أما إذا فشل طلب الإستدعاء، ستطبع رسالة الخطأ (error message) في لوحة التحكم:
+
+![8-1](https://www.freecodecamp.org/news/content/images/2020/08/8-1.png)
+
+
+## طلب بإستخدام الـ(Fetch API)
 
 ---
 
@@ -133,8 +181,6 @@ The above code will send a GET request to [https://api.github.com/users/manishms
 If the request failed, it will print this error message to the console:
 
 ![8-1](https://www.freecodecamp.org/news/content/images/2020/08/8-1.png)
-
-ADVERTISEMENT
 
 ## Fetch API
 
