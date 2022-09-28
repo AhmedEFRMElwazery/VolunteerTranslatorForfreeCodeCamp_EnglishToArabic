@@ -195,7 +195,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 
 By: [Manish Shivanandhan](https://www.freecodecamp.org/news/author/manishmshiva/)
 
-*Translated by: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)*
+(*Translated by: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)*)
 
 If you are writing a web application, chances are you will have to work with external data. This can be your own database, third party APIs, and so on.
 
