@@ -4,9 +4,9 @@
 
 
 
-This repo is dedicated to translation effort for freeCodeCamp articles from the English language to the Arabic language by me.
+This repo is dedicated to my translation effort for the freeCodeCamp articles from the English language to the Arabic language.
 
-This is a volunteering effort, and I am NOT being paid for it.
+This is solely a personal volunteering effort.
 
 Kindly find links to the original articles as well as the translated version below:
 
