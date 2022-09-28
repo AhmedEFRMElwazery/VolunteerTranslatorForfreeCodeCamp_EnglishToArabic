@@ -189,6 +189,10 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 
 # JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples
 
+By: [Manish Shivanandhan](https://www.freecodecamp.org/news/author/manishmshiva/)
+
+*Translated by: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)*
+
 If you are writing a web application, chances are you will have to work with external data. This can be your own database, third party APIs, and so on.
 
 When [AJAX](https://en.wikipedia.org/wiki/Ajax_%28programming%29) first appeared in 1999, it showed us a better way to build web applications. AJAX was a milestone in web development and is the core concept behind many modern technologies like React.
