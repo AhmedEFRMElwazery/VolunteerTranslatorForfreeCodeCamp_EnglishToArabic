@@ -6,7 +6,7 @@
 
 This repo is dedicated to my translation effort for the freeCodeCamp articles from the English language to the Arabic language.
 
-This is solely a personal volunteering effort.
+**This is solely a personal volunteering effort.**
 
 Kindly find links to the original articles as well as the translated version below:
 
