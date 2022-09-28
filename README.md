@@ -12,6 +12,6 @@ Kindly find links to the original articles as well as the translated version bel
 
 ### **JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples.**
 
-- [x] Original article: [external link](https://www.freecodecamp.org/news/javascript-fetch-api-tutorial-with-js-fetch-post-and-header-examples/)
+- [x] Original article: [external link (on freeCodeCamp)](https://www.freecodecamp.org/news/javascript-fetch-api-tutorial-with-js-fetch-post-and-header-examples/)
 
 - [x] Arabic translation: [Link on Github](https://github.com/AhmedEFRMElwazery/VolunteerTranslatorForfreeCodeCamp_EnglishToArabic/blob/main/articles/JavaScript%20Fetch%20API%20Tutorial%20with%20JS%20Fetch%20Post%20and%20Header%20Examples.md)
