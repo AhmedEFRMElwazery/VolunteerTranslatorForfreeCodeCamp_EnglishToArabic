@@ -1,6 +1,6 @@
 # Volunteer Translator For freeCodeCamp_English To Arabic
 
-![freeCodeCamp logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.png)
+![freeCodeCamp logo](https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_large.png)
 
 
 
