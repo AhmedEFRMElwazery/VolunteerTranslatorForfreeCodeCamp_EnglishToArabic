@@ -1,1 +1,17 @@
-# VolunteerTranslatorForfreeCodeCamp_EnglishToArabic
+# Volunteer Translator For freeCodeCamp_English To Arabic
+
+![freeCodeCamp logo](https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.png)
+
+
+
+This repo is dedicated to translation effort for freeCodeCamp articles from the English language to the Arabic language by me.
+
+This is a volunteering effort, and I am NOT being paid for it.
+
+Kindly find links to the original articles as well as the translated version below:
+
+- **JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples.**
+
+Original article: https://www.freecodecamp.org/news/javascript-fetch-api-tutorial-with-js-fetch-post-and-header-examples/
+
+Arabic translation: https://github.com/AhmedEFRMElwazery/VolunteerTranslatorForfreeCodeCamp_EnglishToArabic/blob/main/articles/JavaScript%20Fetch%20API%20Tutorial%20with%20JS%20Fetch%20Post%20and%20Header%20Examples.md
