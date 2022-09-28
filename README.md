@@ -21,4 +21,4 @@ Kindly find links to the original articles as well as the translated version bel
 
 - [x] Original article: [external link (on freeCodeCamp)](https://www.freecodecamp.org/news/coding-projects-to-include-in-your-frontend-portfolio/)
 
-- [x] Arabic translation: [Link on Github](#)
+- [x] Arabic translation: [Link on Github](https://github.com/AhmedEFRMElwazery/VolunteerTranslatorForfreeCodeCamp_EnglishToArabic/blob/main/articles/5%20Coding%20Projects%20You%20Should%20Include%20in%20Your%20Front%20End%20Portfolio.md)
