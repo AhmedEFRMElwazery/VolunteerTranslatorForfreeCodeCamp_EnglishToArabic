@@ -1,5 +1,9 @@
 # درس لتعلم إستخدام ال(Fetch AP) مع بعض الامثلة لإستخدام ال(JS Fetch POST) وال(Header) 
 
+تأليف: [Manish Shivanandhan](https://www.freecodecamp.org/news/author/manishmshiva/)
+
+ترجمة: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)
+
 اذا كنت مبرمج يقوم ببناء تطبيقات الويب فإن احتمالية استخدامك لبعض البيانات الخارجية الداعمة لتطبيقك والمقدمة و المتاحة بالفعل بإستخدام تكنولوجيا الـ(API) من بعض الجهات الخارجية عالية جدا...
 
 حينما ظهرت تكنولوجيا ال([AJAX](https://en.wikipedia.org/wiki/Ajax_%28programming%29)) عام 1999 احدثت ثورة في طريقة بناء تطيقات الويب وكانت نقطة انطلاق لكثير من الادوات التي نستخدمها الآن مثل (React).
