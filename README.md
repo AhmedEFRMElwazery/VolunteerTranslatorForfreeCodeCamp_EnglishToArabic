@@ -10,7 +10,7 @@ This is solely a personal volunteering effort.
 
 Kindly find links to the original articles as well as the translated version below:
 
-- **JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples.**
+### **JavaScript Fetch API Tutorial with JS Fetch Post and Header Examples.**
 
 - [x] Original article: [external link](https://www.freecodecamp.org/news/javascript-fetch-api-tutorial-with-js-fetch-post-and-header-examples/)
 
