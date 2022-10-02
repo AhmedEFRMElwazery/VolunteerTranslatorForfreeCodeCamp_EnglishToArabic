@@ -43,9 +43,9 @@
 
 
 
-## 2. قم بإنشاء موقع منسوخ
+## 2. قم بإنشاء موقع منسوخ (Clone website)
 
-وحدة من أهم قدرات كمبرمج متخصص في الـ(Front-End) هي درتك علي تحويل تصميم من تصاميم المواقع إلي موقع كامل يعمل بشكل كامل دون أخطاْ.
+واحدة من أهم قدراتك كمبرمج متخصص في الـ(Front-End) هي قدرتك علي تحويل تصميم من تصاميم المواقع إلي موقع يعمل بشكل كامل دون أخطاْ.
 
 	لكي تتمكن من تحقيق ذلك، يجب أن يكون لديك عين ثاقبة لتحديد الأولوان المطلوبة فالتصميم وطرية هيكلة الموقع بشكل مناسب، ولذلك يجب أن تكون ملماً بلغة الـ(CSS) لأنها هي التي ستساعدك علي تحديد كيفية تطبيق خصائص الموقع بشكل صحيح من مرحلة الهيكلة (layout) الي مرحلة تفعيل الـ(animation) المطلوب.  
 
@@ -70,6 +70,27 @@ Photo by [Solen Feyissa](https://unsplash.com/@solenfeyissa?utm_source=ghost&utm
 **ملاحظة هامة**: كل التصاميم المتاحة علي المواقع تتضمن ملكية فكرية لممتلكيها، ولذلك يجب عدم إستخدامها في تطبيقات فعلية ذات طابع تجاري، وقد يعرضك ذلك للمساءلة القانونية. يجب عليك أيضاً الإتصال بصاحب هذا التصميم لإستئذانه في إستخدام تصميمه لإغراض غير تجارية، وغالبا ما يوافق علي ذلك في أغلب الأحيان. من المهم أيضاً ذكر وتوضيح أن هذا العمل المعروض علي ملفك الشخصي كأحد أعمالك هو نسخة من عمل او تصميم شخص آخر، وما يستخدم هنا إلا لعرض قدرتك علي تحويل التصاميم إلي مواقع عاملة.
 
 
+## 3. موقع يتيح إظهار قدرتك علي تطوير مواقع من نوع (CRUD)
+دعنا أولاً نوضح معني كلمة موقع من نوع (CRUD). كلمة (CRUD) هي إختصار لأربع كلمات: إنشاء (Create)، قراءة (Read)، تعديل (Update)، و مسح (Delete). إذاً معني جملة " موقع من نوع (CRUD)" أي موقع يقوم بتلك الخصائص الأربعة: كتابة وإنشاء البيانات وتخزينها في قاعدة البيانات، قراءة البيانات من قاعدة البيانات، تعديل البيانات في قاعدة البيانات، مسح البيانات من قاعدة البيانات. 
+
+من أهم أمثلة المواقع من نوع (CRUD) هي مواقع التواصل الإجتماعي والمواقع التجارة الإلكترونية، وهي من أهم المهارات التي يمكن لمبرمجي الـ(Front-End) إكتسابها.
+
+من أمثلة المواقع من نوع (CRUD) والتي يمكنك بنائها بسهولة هي تطبيقات القوائم (To-Do list) وتطبيقات أخذ الملاحظات (Note-taking). المميز في هذه التطبيقات هي سهولة تطويرها وإستيفائها لشروط تطبيقات (CRUD) حيث أنها تسمح بكتابة وتخزين وقراءة و تعديل ومسح البيانات، دون الحاجة إلي تطوير تطبيقات التواصل الإجتماعي والتجارة الإلكترونية والتي تتميز بوجود مستوي عالي من التعقيد (complexity) في تطويرها، وبالنالي ليست مناسبة للمبرمجين المبتدئين.
+
+يمكنك أيضاً تطوير تلك التطبيقات بإستخدام أداة من أدوات الـ(Front-End) من أمثلة الـ(frontend frameworks) كـ(React) او (Angular) او (Vue) او غيرها...حيث سيتيح لك ضرب عصفورين بحجر واحد...إظهار  قدرتك علي إستخدام تلك الأدوات بالإضافة إلي الهدف الأساسي وهو إظهار قدرتك علي التلاعب بالبيانات وأنظمة تخزينها وتطويعها (data structures). 
+
+
+![image-295](https://www.freecodecamp.org/news/content/images/2021/04/image-295.png)
+
+Photo by [Jess Bailey](https://unsplash.com/@jessbaileydesigns?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+هناك مقال مفيد جداً كتبته Tania Rascia عن طريقة إستخدام التخزين المحلي (local storage) إسمه [working with local storage](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/) يمكنك من خلاله تعلم أساسيات إنشاء تطبيق من نوع (CRUD) بإستخدام الـ(vanilla JavaScript)...يمكنك أيضاً الإطلاع علي مقال كتبته نفس الكاتبة Tania Rascia تشرح كيفية إستخدام أدوات الـ(frontend framework) في إنشاء تطبيق من نوع (CRUD) علي الرابط التالي [Building A Crud App with React Hooks](https://www.taniarascia.com/crud-app-in-react-with-hooks/)
+
+**التكنولوجيا الأمثل للإستخدام:** التطبيقات من نوع (CRUD) تتطلب إستخدام مكونات معادة الإستخدام (reusable components) لذلك فإنه من الأفضل بنائها بإستخدام أداة من أدوات الـ(frontend frameworks) من أمثلة (React) و (Vue). 
+
+**مصادر وأمثلة**: [React CRUD App with Hooks](https://taniarascia.github.io/react-hooks/)
+
+
 
 
 
@@ -85,7 +106,7 @@ Photo by [Solen Feyissa](https://unsplash.com/@solenfeyissa?utm_source=ghost&utm
 
 By: [Jemima Abu](https://www.freecodecamp.org/news/author/jemimaabu/)
 
-*Translated by: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)*
+(*Translated by: [Ahmed E. F. R. Mohammed](https://github.com/AhmedEFRMElwazery)*)
 
 A portfolio is a great way to show off your skills to potential employers. And it's especially helpful for entry-level developers who might not have any professional work experience.
 
