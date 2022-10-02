@@ -27,4 +27,4 @@ Kindly find links to the original articles as well as the translated version bel
 
 - [x] Original article: [external link (on freeCodeCamp)](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
-- [x] Arabic translation: [Link on Github](#)
+- [x] Arabic translation: [Link on Github](https://github.com/AhmedEFRMElwazery/VolunteerTranslatorForfreeCodeCamp_EnglishToArabic/blob/main/articles/JavaScript%20Loops%20Explained-For%20Loop%2C%20While%20Loop%2C%20Do...while%20Loop%2C%20and%20More.md)
